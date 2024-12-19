@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.question1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+@media screen and ( max-width : 1024px ) and ( min-width : 768px ){
+    .question1{
+        background-color: lightblue;
+}
+}
+
+.question2{
+    font-size: 25px;
+}
+@media screen and ( max-width : 1200px ) and ( min-width : 600px ){
+    .question2{
+        font-size: 18px;
+}
+}
+.question3{
+    font-size: medium;
+}
+@media screen and ( min-width : 480px ) {
+    .question3{
+        display: flex;
+}
+}
+
+@media screen and ( max-width : 800px ) and ( min-width : 500px ){
+    .question4>h1{
+        color: green;
+}
+}
+.question5{
+    width: 200px;
+    height: 200px;
+}
+@media screen and ( max-width : 400px ) {
+    .question5{
+        display:none ;
+}
+}
+.question6{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+@media screen and ( min-width : 1024px ) {
+    .question6{
+        padding: 20px;
+}
+}
+.question7{
+    background-color: yellow;
+}
+@media screen and ( max-width : 1200px ) and ( min-width : 600px ) {
+    .question7{
+        background-color: lightgray;
+}
+}
+.question8{
+    font-size: 24px;
+}
+
+@media screen and ( max-width : 480px ) {
+    .question8{
+        font-size: 16px;
+}
+}
+.question10{
+    width: 200px;
+    height: 200px;
+}
+@media screen and ( max-width : 600px ) {
+    .question10{
+        width: 100%;
+}
+}
+.question11>a{
+        color: red;
+}
+@media screen and ( max-width : 1200px ) and ( min-width : 700px){
+    .question11>a{
+         color: blue;
+    }
+}
+.question13{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+@media screen and  (min-width : 1024px) {
+    .question13{
+        border: 2px solid black;
+}
+}
+.question14{
+    background-color: green;
+    width: 350px;
+    height: 300px;
+}
+@media screen and ( max-width : 1200px ) and ( min-width : 800px ) {
+    .question14{
+        width: 250px;
+        
+}
+}
+
+.question15{
+    display: flex;
+}
+@media screen and  (min-width : 600px) {
+    .question15{
+        display: flex;
+        flex-direction: column;
+        
+}
+}
+
+
+
+
+
